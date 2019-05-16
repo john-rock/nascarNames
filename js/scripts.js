@@ -3,7 +3,7 @@ $(document).ready(function () {
 
     $("#generate-btn").click(function(){
         var firstName = $('#firstName').val();
-        var middleName = ["Bobby", "Wes", "Billy", "Ricky", "Davey", "Ward", "Ryan"];
+        var middleName = ["Bobby", "Wes", "Billy", "Ricky", "Davey", "Ward", "Ryan", "Dale"];
         var lastName = ["Johnson", "Gordon", "Trickle", "Roberts", "Petty", "Martin", "Jones", "Wallace", "Skinner", "Bodine", "Burton", "Blaney"];
         
         var randMName = Math.floor(Math.random() * (middleName.length));
